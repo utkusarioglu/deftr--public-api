@@ -9,8 +9,6 @@ export interface ServerRequest {
  * Interface for responses from the server
  */
 export interface ServerResponse {
-  testResponse: {
-    test: ServerRequest['test'];
-    response: string;
-  };
+  test: ServerRequest['test'];
+  response: string;
 }
