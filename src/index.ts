@@ -13,6 +13,12 @@ interface LoginMessagelet {
   username: string;
   password: string;
 }
+
+/**
+ * Keys of ServerRequest interface
+ */
+export type ServerRequestKeys = keyof ServerRequest;
+
 /**
  * Interface for responses from the server
  */
